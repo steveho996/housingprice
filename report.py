@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset (replace with your actual path)
-data = pd.read_csv('/workspaces/housingprice/train.csv') 
+data = pd.read_csv('train.csv') 
 
 # Select features and target
 features = ['OverallQual', 'GrLivArea', 'GarageCars']
